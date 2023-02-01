@@ -1,0 +1,4 @@
+#1-1 Print and input
+print("Hello World!")
+
+input("Why are you here?\n")
