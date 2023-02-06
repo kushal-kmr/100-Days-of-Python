@@ -8,7 +8,8 @@
 #Write your code below this line 👇
 
 print("Welcome to the tip calculator!")
-bill = int(input("What was the total bill?\n"))
+
+bill = float(input("What was the total bill?\n"))
 tip = int(input("How much tip would you like to give? 10,12,15?\n")) 
 split = int(input ("How many people to split the bill?\n"))
 
