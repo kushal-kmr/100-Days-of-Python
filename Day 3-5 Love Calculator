@@ -1,0 +1,39 @@
+#You are going to write a program that tests the compatibility between two people.  
+#To work out the love score between two people:
+#> Take both people's names and check for the number of times the letters in the word TRUE occurs. Then check for the number of times the letters in the word LOVE occurs. Then combine these numbers to make a 2 digit number. 
+
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+names = name1 + name2
+lnames = names.lower()
+
+
+t = lnames.count('t')
+r = lnames.count('r')
+u = lnames.count('u')
+e = lnames.count('e')
+l = lnames.count('l')
+o = lnames.count('o')
+v = lnames.count('v')
+e = lnames.count('e')
+
+t_sc= t+r+u+e 
+l_sc = l+o+v+e 
+ss= str(t_sc)+str(l_sc)  #converting int to str for str concatenation
+score = int(ss)
+
+
+if score < 10 and score > 91:
+    print(f'Your score is {score} , you go like coke and mentos')
+elif score >=40 and score <=50:
+    print(f'Your score is {score}, you go alright together')
+else:
+    print(f'Your score is {score}')
+    
+    
