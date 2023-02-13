@@ -29,7 +29,7 @@ ss= str(t_sc)+str(l_sc)  #converting int to str for str concatenation
 score = int(ss)
 
 
-if score < 10 and score > 91:
+if score < 10 or score > 90:
     print(f'Your score is {score} , you go like coke and mentos')
 elif score >=40 and score <=50:
     print(f'Your score is {score}, you go alright together')
